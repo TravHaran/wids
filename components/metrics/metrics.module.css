@@ -11,7 +11,7 @@
     background-color: rgba(255, 255, 255, 0.60);
     height: min-content;
     border-radius: 20px;
-    border: solid 2px white;
+    border: solid 1px white;
     padding: 20px;
 }
 
@@ -19,7 +19,7 @@
     background-color: rgba(255, 255, 255, 0.60);
     height: min-content;
     border-radius: 20px;
-    border: solid 2px white;
+    border: solid 1px white;
     padding: 20px;
 }
 
@@ -27,6 +27,6 @@
     background-color: rgba(255, 255, 255, 0.60);
     height: min-content;
     border-radius: 20px;
-    border: solid 2px white;
+    border: solid 1px white;
     padding: 20px;
 }
