@@ -2,9 +2,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 // import WareHouses from "../../components/warehouses";
-import WareHouseItem from "../../components/warehouse/WareHouseItem";
+import WareHouseItem from "components/warehouse/WareHouseItem";
 import { useState } from "react";
-import Navbar from "../../components/navbar/navbar";
+import Navbar from "components/navbar/navbar";
 
 const myWarehouses = [
   {
