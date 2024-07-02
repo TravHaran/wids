@@ -1,9 +1,8 @@
 "use client";
-import Image from "next/image";
 import styles from "./page.module.css";
-import WareHouseItem from "../../../components/warehouse/warehouse";
+import WareHouseItem from "@/components/warehouse/warehouse";
 import { useState } from "react";
-import Navbar from "../../../components/navbar/navbar";
+import Navbar from "@/components/navbar/navbar";
 
 const myWarehouses = [
   {

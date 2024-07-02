@@ -1,12 +1,10 @@
 "use client";
-import Image from "next/image";
 import styles from "./page.module.css";
-import WareHouseItem from "../../../components/warehouse/warehouse";
 import { useState, useEffect, Fragment } from "react";
-import Navbar from "../../../components/navbar/navbar";
+import Navbar from "@/components/navbar/navbar";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
-import Overview from "../../../components/overview/overview";
-import Process from "../../../components/process/process";
+import Overview from "@/components/overview/overview";
+import Process from "@/components/process/process";
 import InsightsIcon from '@mui/icons-material/Insights';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import EngineeringIcon from '@mui/icons-material/Engineering';
