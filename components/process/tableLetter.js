@@ -9,7 +9,7 @@ export default function TableLetter({ letter, index}) {
     }, 100 * index)
 
     return (
-        <div className={flip? styles.flip : null}>
+        <div className={flip? styles.flip : styles.letter}>
             {flip? letter : null}
         </div>
     )

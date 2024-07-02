@@ -2,12 +2,13 @@
     padding: 10px;
 }
 
-.departures {
+.tableContainer {
     font-family: "Ubuntu Condensed", sans-serif, Arial;
     color: rgb(240, 240, 240);
     font-size: 35px;
+    width: 100%;
 
-    background-color: rgb(6, 6, 6);
+    background-color: rgba(6, 6, 6, 0.5);
     border-radius: 10px;
     padding: 10px;
     box-shadow: 
@@ -15,10 +16,15 @@
         rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
-.departures table {
-    background-color: rgb(46, 46, 46);
+.tableContainer table {
+    background-color: rgba(46, 46, 46, 0.75);
     text-align: left;
+    position: relative;
     padding: 10px;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: auto;
 }
 
 .tableHead_time {
@@ -41,7 +47,11 @@
     width: 260px;
 }
 
-.departures table div {
+.tableIcon {
+    width: 50px;
+}
+
+.tableContainer table div {
     border: solid 2px rgb(26, 26, 26);
     background-color: rgb(0, 0, 0);
     min-width: 20px;
@@ -52,6 +62,9 @@
 
 .flip {
     animation: 0.5s linear flipping;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 @keyframes flipping {
@@ -66,4 +79,41 @@
     }
     
 }
+
+/* .fullScreenToggle {
+    align-content: left;
+} */
+
+.tableRight {
+    position: relative;
+    align-items:end;
+    width: max-content;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+}
+
+.tableRight:hover {
+    border: solid 1px #fff;
+}
+
+.tableLeft {
+    position: relative;
+}
+
+.tableHead {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.fullscreenTable {
+    width: 100%;
+}
+
 

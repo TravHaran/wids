@@ -38,7 +38,7 @@ export default function Home() {
       <div className={styles.titleContainer}>
         <div>WIDS</div>
       </div>
-      <div>WareHouse Information Display System</div>
+      <div>Warehouse Information Display System</div>
       <div className={styles.buttonContainer}>
         <a href="warehouses">
           <button className={styles.inputButton} type="button" onClick={() => initPath("WIDS", "warehouses")}>

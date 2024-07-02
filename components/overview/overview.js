@@ -36,8 +36,8 @@ export default function Overview() {
     <div style={{ width: "100%", height: "100%", paddingBottom: "3%" }}>
       <ReactFlow nodes={initialNodes} edges={initialEdges} onInit={onInit}
       >
-        <Controls />
-        {/* <MiniMap /> */}
+        <Controls style={{marginBottom: "35px"}}/>
+        <MiniMap style={{backgroundColor:"black", opacity:"30%", padding:"5px", marginBottom: "30px"}}/>
         <Background variant="dots" gap={12} size={1} />
       </ReactFlow>
     </div>
