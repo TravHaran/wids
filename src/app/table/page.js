@@ -1,7 +1,7 @@
 "use client";
 import styles from "./page.module.css";
 // import WareHouses from "../../components/warehouses";
-import WareHouseItem from "@/components/warehouse/WareHouseItem";
+import WareHouseItem from "@/components/warehouse/warehouse";
 import { useState } from "react";
 import Navbar from "@/components/navbar/navbar";
 
