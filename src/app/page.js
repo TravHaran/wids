@@ -2,7 +2,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 // import WareHouses from "../../components/warehouses";
-import WareHouseItem from "../../components/warehouse/WareHouseItem";
+import WareHouseItem from "../../components/warehouse/warehouse";
 import { useState, useEffect } from "react";
 import Navbar from "../../components/navbar/navbar";
 
