@@ -1,0 +1,32 @@
+.metricsContainer {
+    display:grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.lineGraphContainer {
+    background-color: rgba(255, 255, 255, 0.60);
+    height: min-content;
+    border-radius: 20px;
+    border: solid 2px white;
+    padding: 20px;
+}
+
+.barGraphContainer {
+    background-color: rgba(255, 255, 255, 0.60);
+    height: min-content;
+    border-radius: 20px;
+    border: solid 2px white;
+    padding: 20px;
+}
+
+.pieChartContainer {
+    background-color: rgba(255, 255, 255, 0.60);
+    height: min-content;
+    border-radius: 20px;
+    border: solid 2px white;
+    padding: 20px;
+}

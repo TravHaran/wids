@@ -8,6 +8,7 @@ import Process from "@/components/process/process";
 import InsightsIcon from '@mui/icons-material/Insights';
 import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 import EngineeringIcon from '@mui/icons-material/Engineering';
+import Metrics from "@/components/metrics/metrics";
 
 const myWarehouses = [
   {
@@ -127,6 +128,11 @@ export default function Home() {
             <a key={process}>
               <Process name={process}/>
             </a>
+          </div>
+        )}
+        {content === 2 && (
+          <div className={styles.content}>
+            <Metrics/>
           </div>
         )}
       </div>
