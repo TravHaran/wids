@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function WareHouseItem({ name, id, description, location, img }) {
   return (
-    <div
-      onClick={() => localStorage.setItem("warehouse", name)}
-      href="warehouses"
+    <a
+      onClick={() => localStorage.setItem("WAREHOUSE_ID", id)}
+      href="dashboard"
       className={styles.card}
     >
       <div className={styles.cardContainer}>
@@ -23,6 +23,6 @@ export default function WareHouseItem({ name, id, description, location, img }) 
         </h2>
         <p>{location}</p>
       </div>
-    </div>
+    </a>
   );
 }

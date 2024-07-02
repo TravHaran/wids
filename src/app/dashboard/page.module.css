@@ -1,0 +1,129 @@
+.body {
+    height: 100vh;
+    background-color: #151320;
+    overflow: hidden;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #151320;
+    /* height: 100vh; */
+  }
+  
+  .warehouseTitle {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 0;
+    align-items: left;
+    padding-left: 50px;
+    padding-top: 25px;
+  }
+  
+  .gridContainer {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+  }
+  
+  .grid {
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: repeat(4, minmax(25%, auto));
+    max-width: 100%;
+    width: var(--max-width);
+    grid-gap: 50px;
+  }
+  
+  .warehouse {
+    filter: drop-shadow(1px 1px 4px #ffffff);
+  }
+  
+  .card {
+    padding: 1rem 1.2rem;
+    border-radius: var(--border-radius);
+    background: rgba(var(--card-rgb), 0);
+    border: 1px solid rgba(var(--card-border-rgb), 0);
+    transition: background 200ms, border 200ms;
+  }
+  
+  .card span {
+    display: inline-block;
+    transition: transform 200ms;
+  }
+  
+  .card h2 {
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+  }
+  
+  .card p {
+    margin: 0;
+    opacity: 0.6;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    max-width: 30ch;
+    text-wrap: balance;
+  }
+  
+  /* Enable hover only on non-touch devices */
+  @media (hover: hover) and (pointer: fine) {
+    .card:hover {
+      background: rgba(var(--card-rgb), 0.1);
+      border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    }
+  
+    .card:hover span {
+      transform: translateX(4px);
+    }
+  }
+  
+  @media (prefers-reduced-motion) {
+    .card:hover span {
+      transform: none;
+    }
+  }
+
+  /* This is for menu item */
+.pro-menu-item a.active {
+  color: var(--main-blue);  /* put any color you want */
+  font-weight: 500;
+}
+
+/* This is for submenu item */
+.nav-member .react-slidedown .pro-menu-item a.active {
+  color: #003642;  /* put any color you want */
+  font-weight: 500;
+}
+  
+
+.contentContainer {
+  display: flex;
+  height: 100%;
+}
+
+.content {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+.content2 {
+  justify-content:center;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items:first baseline;
+  /* background-color: rgb(251, 199, 127); */
+  padding: 1rem;
+  overflow: scroll;
+}
